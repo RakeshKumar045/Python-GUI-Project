@@ -1,8 +1,9 @@
+import requests
 import tkinter as tk
+from PIL import ImageTk, Image
 from tkinter import *
 from tkinter import messagebox
-from PIL import ImageTk, Image
-import requests
+
 root = tk.Tk()
 root.geometry('500x300')
 root.maxsize(500,300)
